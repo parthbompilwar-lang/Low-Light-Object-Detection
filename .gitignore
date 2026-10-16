@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Large Dataset Images (Keep annotations and split files)
+ExDark/
+
+# Heavy Model Weights (>100MB exceeds GitHub push limit)
+weights/detector_fasterrcnn*.pth
+
+# Temporary outputs
+outputs/test_*.png
+outputs/step_zoom.png
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
